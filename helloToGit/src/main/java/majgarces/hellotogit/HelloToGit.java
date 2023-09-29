@@ -11,6 +11,11 @@ package majgarces.hellotogit;
 public class HelloToGit {
 
     public static void main(String[] args) {
+        showMessage();
+    }
+    
+    public static void showMessage(){
         System.out.println("Hello to git!");
+
     }
 }
