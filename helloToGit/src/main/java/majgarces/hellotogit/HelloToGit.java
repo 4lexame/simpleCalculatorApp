@@ -16,6 +16,10 @@ public class HelloToGit {
     
     public static void showMessage(){
         System.out.println("Hello to git!");
+    }
+    
+    public static void showBye(){
+        System.out.println("Bye");
 
     }
 }
