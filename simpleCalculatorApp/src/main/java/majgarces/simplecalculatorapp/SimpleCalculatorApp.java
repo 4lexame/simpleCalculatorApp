@@ -23,7 +23,9 @@ public class SimpleCalculatorApp {
     }
     
     public static void main(String[] args) {
+        ShowOutput ShowOutput = new ShowOutput();
+        
         int result = mul(2,4);
-        System.out.println("Result is: " + result);
+        ShowOutput.simplePrint(result);
     }
 }
