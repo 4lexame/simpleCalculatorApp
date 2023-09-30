@@ -10,6 +10,6 @@ package majgarces.simplecalculatorapp;
  */
 public class ShowOutput {
     public void simplePrint(int result){
-        System.out.println("Result is: " + result);
+        System.out.println("The result of operation is: " + result);
     }
 }

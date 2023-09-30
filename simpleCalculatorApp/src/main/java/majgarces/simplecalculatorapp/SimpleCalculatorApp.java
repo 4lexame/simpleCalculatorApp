@@ -22,10 +22,14 @@ public class SimpleCalculatorApp {
         return (num1 * num2);
     }
     
+    public static int div(int num1, int num2){
+        return (num1 / num2);
+    }
+    
     public static void main(String[] args) {
         ShowOutput ShowOutput = new ShowOutput();
         
-        int result = mul(2,4);
+        int result = div(4,2);
         ShowOutput.simplePrint(result);
     }
 }
