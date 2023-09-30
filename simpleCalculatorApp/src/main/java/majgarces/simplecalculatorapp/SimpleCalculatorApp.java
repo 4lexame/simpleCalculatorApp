@@ -18,8 +18,12 @@ public class SimpleCalculatorApp {
         return (num1 - num2);
     }
 
+    public static int mul(int num1, int num2){
+        return (num1 * num2);
+    }
+    
     public static void main(String[] args) {
-        int result = sub(2,4);
+        int result = mul(2,4);
         System.out.println("Result is: " + result);
     }
 }
